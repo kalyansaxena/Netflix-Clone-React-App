@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.disclaimer {
+    margin: 10px;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.social-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .footer {
+        margin: 0px 20px;
+        text-align: center;
+    }
+}

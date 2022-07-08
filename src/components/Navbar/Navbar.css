@@ -1,0 +1,59 @@
+.navbar {
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+    transition: all 1s ease;
+}
+
+.navbar.scrolled {
+    background-color: #0b0b0b;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    height: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .nav-link {
+        display: none;
+    }
+}
